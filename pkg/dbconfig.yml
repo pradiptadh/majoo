@@ -1,0 +1,5 @@
+local:
+  dialect: mysql
+  datasource: root:password@tcp(127.0.0.1:8083)/majoo?parseTime=true
+  dir: migrations/mysql
+  table: migrations
